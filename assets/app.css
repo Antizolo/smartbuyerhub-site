@@ -56,7 +56,7 @@ img{max-width:100%;display:block}
 
 /* header */
 .site-head{position:sticky;top:0;z-index:60;transition:all .35s var(--ease);background:#fff;border-bottom:1px solid var(--line)}
-.site-head.over-hero{position:fixed;left:0;right:0;background:transparent;border-bottom-color:transparent}
+.site-head.over-hero{position:fixed;left:0;right:0;background:linear-gradient(180deg,rgba(0,28,46,.55),rgba(0,28,46,0));border-bottom-color:transparent}
 .site-head.scrolled{background:rgba(255,255,255,.92);backdrop-filter:saturate(160%) blur(12px);border-bottom-color:var(--line);box-shadow:0 6px 24px rgba(0,42,66,.06)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:80px}
 .brand img{height:50px;width:auto;transition:.3s}
