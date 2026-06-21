@@ -1,0 +1,34 @@
+# Smart Buyer Hub
+
+> Smart Buyer Hub is an independent Australian mortgage broker and home-loan strategist based in Greater Sydney, helping first home buyers, owner-occupiers, refinancers, property investors and self-employed borrowers secure the right home loan. It compares a panel of 30+ lenders (including the Big 4) across thousands of products. The difference is personal, patient guidance — you deal directly with Ryan, who walks you through every step in plain English, from first question to settlement and every year after. Tagline: "Personal guidance, every step."
+
+## Key facts
+- Service: Mortgage broking / home loan advice (independent)
+- Location: Greater Sydney, NSW, Australia; serves clients Australia-wide via video
+- Lender panel: 30+ lenders including CommBank, Westpac, ANZ, NAB, Macquarie, ING, St.George, Suncorp, Bankwest, ME Bank, Pepper Money, MA Money
+- Cost: Free initial strategy session; brokers are typically paid by the lender on settlement
+- Contact: ryan@smartbuyerhub.com.au, 0415 353 927
+- Availability: 7 days a week, after hours
+
+## Services
+- Owner Occupier Loans — upgrading, downsizing, relocating; bridging finance, equity release, loan portability: https://smartbuyerhub.com.au/owner-occupier-loans.html
+- Investment Loans — portfolio structuring, standalone securities, interest-only, equity release: https://smartbuyerhub.com.au/investment-loans.html
+- First Home Buyers — grants, schemes, low-deposit options, First Home Guarantee: https://smartbuyerhub.com.au/first-home-buyers.html
+- Guarantor Loans — family pledge, buy with little or no deposit, avoid LMI: https://smartbuyerhub.com.au/guarantor-loans.html
+- Self-Employed Home Loans — flexible income assessment, low-doc/alt-doc and one-year-return options for sole traders, company directors, trusts and contractors: https://smartbuyerhub.com.au/self-employed-loans.html
+
+## Tools
+- Mortgage Calculator (offset, extra repayments, full schedule): https://smartbuyerhub.com.au/mortgage-calculator.html
+- Borrowing Power Estimator: https://smartbuyerhub.com.au/borrowing-power-estimator.html
+- CGT Reform Calculator (2026-27 Budget proposals): https://smartbuyerhub.com.au/cgt-reform-calculator.html
+
+## Common questions
+- Does it cost anything? The initial strategy session is free; brokers are usually paid by the lender on settlement, so typically no direct cost to you.
+- Can I buy with less than 20% deposit? Yes — via the First Home Guarantee (5%, no LMI), low-deposit loans with LMI, or guarantor loans.
+- How is a broker different from a bank? A bank offers only its own products; Smart Buyer Hub is independent and compares 30+ lenders.
+- Can I get a loan if I'm self-employed? Yes — some lenders accept one year's tax returns, and low-doc options can use BAS, business bank statements or an accountant's declaration.
+
+## More
+- About / meet the broker: https://smartbuyerhub.com.au/about.html
+- Contact / free strategy session: https://smartbuyerhub.com.au/contact.html
+- Knowledge Hub (articles, guides): https://blog.smartbuyerhub.com.au/

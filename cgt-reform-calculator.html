@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CGT Reform Calculator 2026-27 | Smart Buyer Hub</title>
+<meta name="description" content="Model the proposed 2026-27 Budget CGT reforms — CPI indexation and a 30% minimum tax on real gains — versus the current 50% discount.">
+<link rel="canonical" href="https://smartbuyerhub.com.au/cgt-reform-calculator.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Smart Buyer Hub">
+<meta property="og:title" content="CGT Reform Calculator 2026-27 Budget | Smart Buyer Hub">
+<meta property="og:description" content="Compare the current 50% CGT discount with the proposed indexation + 30% minimum tax across entity types.">
+<meta property="og:url" content="https://smartbuyerhub.com.au/cgt-reform-calculator.html">
+<meta property="og:image" content="https://smartbuyerhub.com.au/assets/img/hero1.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon-64.png"><link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+<style>
+.warnbar{background:#fff4e5;border:1px solid #f5d199;color:#7a4f00;border-radius:12px;padding:16px 20px;font-size:.86rem;margin-bottom:24px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.tabs button{border:1px solid var(--line2);background:#fff;border-radius:999px;padding:9px 18px;font-family:inherit;font-weight:600;font-size:.85rem;color:var(--navy2);cursor:pointer}
+.tabs button.on{background:var(--navy2);color:#fff;border-color:var(--navy2)}
+.calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:var(--shadow)}
+.fld{margin-bottom:16px}
+.fld label{display:block;font-size:.8rem;color:var(--navy2);font-weight:700;margin-bottom:5px}
+.fld .hint{font-weight:400;color:var(--dim);font-size:.74rem}
+.fld input,.fld select{width:100%;padding:11px 13px;border:1px solid var(--line2);border-radius:9px;font-family:inherit;font-size:1rem;color:var(--navy2);font-weight:600}
+.fld input:focus,.fld select:focus{outline:none;border-color:var(--sky);box-shadow:0 0 0 3px var(--sky-soft)}
+.statgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:18px}
+.stat2{background:var(--soft);border-radius:12px;padding:16px}
+.stat2 .l{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);font-weight:700}
+.stat2 .v{font-family:var(--display);font-size:1.5rem;font-weight:800;color:var(--navy2);margin-top:2px}
+.stat2.good .v{color:#1c7c3f}
+.ctable{width:100%;border-collapse:collapse;font-size:.85rem;margin-top:8px}
+.ctable th,.ctable td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:right}
+.ctable th:first-child,.ctable td:first-child{text-align:left;color:var(--dim)}
+.ctable thead th{background:var(--navy2);color:#fff}
+.verdict{background:var(--sky-soft);border-radius:12px;padding:16px 18px;margin-top:16px;color:var(--navy2);font-weight:600}
+@media(max-width:820px){.calc-grid{grid-template-columns:1fr}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebApplication","name":"CGT Reform Calculator (2026-27 Budget)","applicationCategory":"FinanceApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"AUD"},"url":"https://smartbuyerhub.com.au/cgt-reform-calculator.html","provider":{"@id":"https://smartbuyerhub.com.au/#org"},"description":"Compare capital gains tax under the current 50% discount versus the proposed 2026-27 Budget reforms (CPI indexation plus a 30% minimum tax on real gains) across entity types."},
+{"@type":"FinancialService","additionalType":"https://en.wikipedia.org/wiki/Mortgage_broker","@id":"https://smartbuyerhub.com.au/#org","name":"Smart Buyer Hub","url":"https://smartbuyerhub.com.au/","email":"ryan@smartbuyerhub.com.au","telephone":"+61415353927"},
+{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://smartbuyerhub.com.au/"},{"@type":"ListItem","position":2,"name":"CGT Reform Calculator","item":"https://smartbuyerhub.com.au/cgt-reform-calculator.html"}]}
+]}
+</script>
+</head>
+<body>
+
+<header class="site-head over-hero">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img class="brand-c" src="assets/img/logo-full.png" alt="Smart Buyer Hub"><img class="brand-w" src="assets/img/logo-full-white.png" alt="" aria-hidden="true"></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="owner-occupier-loans.html">Loan Services <span class="caret"></span></a><div class="dropdown"><a href="owner-occupier-loans.html">Owner Occupier Loans</a><a href="investment-loans.html">Investment Loans</a><a href="first-home-buyers.html">First Home Buyers</a><a href="self-employed-loans.html">Self-Employed Loans</a><a href="guarantor-loans.html">Guarantor Loans</a></div></li>
+      <li><a href="cgt-reform-calculator.html" class="active">Calculators <span class="caret"></span></a><div class="dropdown"><a href="mortgage-calculator.html">Mortgage Calculator</a><a href="borrowing-power-estimator.html">Borrowing Power Estimator</a><a href="cgt-reform-calculator.html">CGT Reform Calculator</a></div></li>
+      <li><a href="https://blog.smartbuyerhub.com.au/">Knowledge Hub</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta"><a class="nav-phone" href="tel:+61415353927">0415 353 927</a><a class="btn btn-sky" href="contact.html">Free assessment</a><button class="burger" aria-label="Open menu">&#9776;</button></div>
+  </div>
+</header>
+<nav class="mobile-nav"><button class="close" aria-label="Close menu">&times;</button><a href="index.html">Home</a><a href="about.html">About</a><a href="owner-occupier-loans.html">Loan Services</a><a href="mortgage-calculator.html">Calculators</a><a href="https://blog.smartbuyerhub.com.au/">Knowledge Hub</a><a href="contact.html">Contact</a><a class="btn btn-sky" href="contact.html">Free assessment</a></nav>
+
+<main>
+<section class="page-hero">
+  <span class="eyebrow" style="color:var(--sky2);justify-content:center">Calculators</span>
+  <h1>CGT reform calculator — 2026-27 Budget.</h1>
+  <p>Model the proposed reforms: CPI cost-base indexation and a 30% minimum tax on real gains, versus the current 50% discount.</p>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="warnbar">These calculators model the proposed CGT reforms announced in the 2026-27 Federal Budget. These changes have <strong>not yet passed Parliament</strong> and are subject to amendment. The reform proposes replacing the 50% CGT discount with CPI cost-base indexation and a 30% minimum tax on real gains, effective 1 July 2027 (if passed).</div>
+    <div class="tabs">
+      <button class="on">Old vs New</button>
+      <button onclick="alert('Advanced scenario — book a strategy review and we will model this with you.')">Existing Asset (Bucket B)</button>
+      <button onclick="alert('Advanced scenario — book a strategy review and we will model this with you.')">New Purchase (Bucket C)</button>
+      <button onclick="alert('Advanced scenario — book a strategy review and we will model this with you.')">New Build Election</button>
+      <button onclick="alert('Advanced scenario — book a strategy review and we will model this with you.')">Strategy / Holding</button>
+    </div>
+    <div class="sec-head left" style="margin-bottom:24px"><h2 style="font-size:1.5rem">Old rules vs new rules (if passed)</h2><p style="font-size:.95rem">Compare CGT across entity types under old and proposed new rules. See which holding structure gives the best outcome under each regime.</p></div>
+    <div class="calc-grid">
+      <div class="panel">
+        <div class="fld"><label>Holding Entity</label><select id="entity"><option value="ind">Individual</option><option value="co30">Company (30%)</option><option value="co25">Company (25% BRE)</option><option value="trust">Trust</option><option value="smsfa">SMSF (Accum.)</option><option value="smsfp">SMSF (Pension)</option></select></div>
+        <div class="fld"><label>Purchase Price + Costs ($) <span class="hint">cost base</span></label><input type="number" id="cb" value="840000"></div>
+        <div class="fld"><label>Expected Sale Price ($) <span class="hint">or auto-fill from growth below</span></label><input type="number" id="sale" value="1200000"></div>
+        <div class="fld"><label>Years Held</label><input type="number" id="years" value="10"></div>
+        <div class="fld"><label>Annual Growth Rate (%) <span class="hint">optional — auto-calculates sale price</span></label><input type="number" step="0.1" id="growth" value="0"></div>
+        <div class="fld"><label>Marginal Tax Rate</label><select id="rate"><option value="0">0%</option><option value="16">16% ($18,201–$45,000)</option><option value="30">30% ($45,001–$135,000)</option><option value="37">37% ($135,001–$190,000)</option><option value="45">45% ($190,001+)</option><option value="47" selected>47% (incl. Medicare Levy)</option></select></div>
+        <div class="fld"><label>Assumed Annual CPI (%) <span class="hint">Treasury default: 2.5</span></label><input type="number" step="0.1" id="cpi" value="2.5"></div>
+        <button class="btn btn-sky" id="calcbtn" style="width:100%;justify-content:center">Calculate Comparison</button>
+      </div>
+      <div>
+        <div class="statgrid">
+          <div class="stat2"><div class="l">Old Rules Tax</div><div class="v" id="oldtax">$0</div></div>
+          <div class="stat2 good"><div class="l">New Rules Tax</div><div class="v" id="newtax">$0</div></div>
+          <div class="stat2"><div class="l">Difference</div><div class="v" id="diff">$0</div></div>
+          <div class="stat2"><div class="l">Indexation Uplift</div><div class="v" id="uplift">$0</div></div>
+        </div>
+        <table class="ctable"><thead><tr><th>Item</th><th>Old Rules</th><th>Proposed New</th></tr></thead><tbody id="ctbody"></tbody></table>
+        <div class="verdict" id="verdict"></div>
+      </div>
+    </div>
+    <p style="font-size:.78rem;color:var(--dim);margin-top:24px">This calculator is for general educational purposes only and does not constitute financial or tax advice. These are proposed changes that have not yet passed Parliament. Consult a qualified tax professional for advice on your specific situation.</p>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="wrap"><div class="cta-band reveal"><h2>Need help understanding your CGT position?</h2><p>These proposed changes could significantly impact your property investment strategy. Book a free strategy review to understand how the reforms may affect your specific situation.</p><a class="btn btn-sky" href="contact.html">Book your free strategy review</a></div></div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="fgrid">
+      <div><img src="assets/img/logo-full-white.png" alt="Smart Buyer Hub" style="height:56px;margin-bottom:16px"><h4>Contact Us</h4><a href="mailto:ryan@smartbuyerhub.com.au">ryan@smartbuyerhub.com.au</a><a href="tel:+61415353927">0415 353 927</a><span style="display:block;margin-top:6px">Serving Greater Sydney &amp; Australia-wide</span></div>
+      <div class="fcol"><h4>Loan Products</h4><a href="first-home-buyers.html">First Home Buyers</a><a href="self-employed-loans.html">Self-Employed Loans</a><a href="owner-occupier-loans.html">Home Loan Refinancing</a><a href="investment-loans.html">Investment Property Loans</a><a href="guarantor-loans.html">Guarantor Loans</a></div>
+      <div class="fcol"><h4>Company</h4><a href="about.html">About Us</a><a href="https://blog.smartbuyerhub.com.au/">Knowledge Hub</a><a href="contact.html">Contact</a></div>
+      <div class="fcol"><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="complaints.html">Complaints Policy</a><a href="#">Credit Guide</a></div>
+    </div>
+    <div class="fbot"><p>&copy; <span data-year>2026</span> Smart Buyer Hub. All Rights Reserved.</p><p>Disclaimer: The information provided on this website is for general education purposes only and is not intended to constitute specialist or personal advice.</p></div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id)};
+  var money=function(n){return (n<0?'-$':'$')+Math.round(Math.abs(n)).toLocaleString()};
+  var cmpact=function(n){var a=Math.abs(n);return a>=1e6?('$'+(n/1e6).toFixed(2)+'M'):money(n)};
+  function calc(){
+    var cb=+$('cb').value||0,years=+$('years').value||0,growth=+$('growth').value||0;
+    var cpi=(+$('cpi').value||0)/100,marg=(+$('rate').value||0)/100,ent=$('entity').value;
+    var sale=+$('sale').value||0;
+    if(growth>0){sale=cb*Math.pow(1+growth/100,years);$('sale').value=Math.round(sale);}
+    var nominal=Math.max(sale-cb,0);
+    var uplift=cb*(Math.pow(1+cpi,years)-1);
+    var adjCB=cb+uplift;
+    var realGain=Math.max(sale-adjCB,0);
+    var oldDisc=0.5,oldRate=marg,newRate=Math.max(marg,0.30);
+    if(ent==='trust'){oldDisc=0.5;oldRate=marg;newRate=Math.max(marg,0.30);}
+    if(ent==='co30'){oldDisc=0;oldRate=0.30;newRate=0.30;}
+    if(ent==='co25'){oldDisc=0;oldRate=0.25;newRate=0.30;}
+    if(ent==='smsfa'){oldDisc=1/3;oldRate=0.15;newRate=0.30;}
+    if(ent==='smsfp'){oldDisc=1/3;oldRate=0;newRate=0;}
+    var oldTaxable=nominal*(1-oldDisc);
+    var oldTax=oldTaxable*oldRate;
+    var newTax=realGain*newRate;
+    var diff=newTax-oldTax;
+    $('oldtax').textContent=money(oldTax);
+    $('newtax').textContent=money(newTax);
+    $('diff').textContent=money(diff)+(diff<0?' less tax':diff>0?' more tax':'');
+    $('uplift').textContent=money(uplift);
+    var pct=cb>0?(uplift/cb*100).toFixed(1):0;
+    $('ctbody').innerHTML=
+      '<tr><td>Cost Base</td><td>'+money(cb)+'</td><td>'+money(cb)+'</td></tr>'+
+      '<tr><td>Indexation Uplift</td><td>N/A</td><td>'+money(uplift)+' ('+pct+'%)</td></tr>'+
+      '<tr><td>Adjusted Cost Base</td><td>'+money(cb)+'</td><td>'+cmpact(adjCB)+'</td></tr>'+
+      '<tr><td>Nominal Gain</td><td>'+money(nominal)+'</td><td>'+money(nominal)+'</td></tr>'+
+      '<tr><td>Taxable Gain</td><td>'+money(oldTaxable)+' ('+Math.round((1-oldDisc)*100)+'%)</td><td>'+money(realGain)+' (real gain)</td></tr>'+
+      '<tr><td>Tax Rate</td><td>'+(oldRate*100).toFixed(1)+'%</td><td>'+(newRate*100).toFixed(1)+'%</td></tr>'+
+      '<tr><td>Tax Payable</td><td>'+money(oldTax)+'</td><td>'+money(newTax)+'</td></tr>'+
+      '<tr><td>After-Tax</td><td>'+cmpact(sale-oldTax)+'</td><td>'+cmpact(sale-newTax)+'</td></tr>';
+    var v=$('verdict');
+    if(diff<0){v.textContent='This entity pays LESS under the proposed new rules — a saving of '+money(-diff)+'. Rule of thumb: real returns over ~5%/yr favour the old 50% discount; under ~2.5%/yr, indexation wins.';}
+    else if(diff>0){v.textContent='This entity pays MORE under the proposed new rules — an extra '+money(diff)+'. Higher growth assets tend to favour the old 50% discount.';}
+    else{v.textContent='Both regimes produce a similar outcome for this scenario.';}
+  }
+  ['entity','cb','sale','years','growth','rate','cpi'].forEach(function(id){$(id).addEventListener('input',calc)});
+  $('calcbtn').addEventListener('click',calc);
+  calc();
+})();
+</script>
+</body>
+</html>

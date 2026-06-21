@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Smart Buyer Hub — Knowledge Hub</title>
+  <link>https://smartbuyerhub.com.au/blog/</link>
+  <description>Plain-English guides on home loans, deposits, refinancing and buying property in Australia.</description>
+  <language>en-AU</language>
+  <atom:link href="https://smartbuyerhub.com.au/blog/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>How much deposit do you really need to buy your first home?</title>
+    <link>https://smartbuyerhub.com.au/blog/first-home-buyer-deposit-guide.html</link>
+    <guid>https://smartbuyerhub.com.au/blog/first-home-buyer-deposit-guide.html</guid>
+    <pubDate>Sat, 21 Jun 2026 00:00:00 +1000</pubDate>
+    <description>5%, 10% or 20%? The schemes, LMI and guarantor options explained — and what each really costs.</description>
+  </item>
+  <item>
+    <title>Self-employed and want a home loan? Here's how to get approved.</title>
+    <link>https://smartbuyerhub.com.au/blog/self-employed-home-loan-guide.html</link>
+    <guid>https://smartbuyerhub.com.au/blog/self-employed-home-loan-guide.html</guid>
+    <pubDate>Sat, 21 Jun 2026 00:00:00 +1000</pubDate>
+    <description>The documents, add-backs, low-doc options and lenders that turn a bank's "no" into a "yes".</description>
+  </item>
+  <item>
+    <title>Fixed vs variable: how to actually decide (without a crystal ball)</title>
+    <link>https://smartbuyerhub.com.au/blog/fixed-vs-variable-home-loan.html</link>
+    <guid>https://smartbuyerhub.com.au/blog/fixed-vs-variable-home-loan.html</guid>
+    <pubDate>Sat, 21 Jun 2026 00:00:00 +1000</pubDate>
+    <description>A calm framework for choosing between fixed, variable and split — based on your life, not guesswork.</description>
+  </item>
+</channel>
+</rss>
