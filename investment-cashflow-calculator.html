@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investment Property Cashflow Calculator | Smart Buyer Hub</title>
+<meta name="description" content="See what an investment property really costs you per week after tax — rent, interest, expenses, depreciation and negative gearing, on your marginal rate.">
+<link rel="canonical" href="https://smartbuyerhub.com.au/investment-cashflow-calculator.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Smart Buyer Hub">
+<meta property="og:title" content="Investment Property Cashflow Calculator | Smart Buyer Hub">
+<meta property="og:description" content="What does this investment property actually cost you per week after tax? Negative gearing made clear.">
+<meta property="og:url" content="https://smartbuyerhub.com.au/investment-cashflow-calculator.html">
+<meta property="og:image" content="https://smartbuyerhub.com.au/assets/img/apartments.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon-64.png"><link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+<style>
+.calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px;box-shadow:var(--shadow)}
+.fld{margin-bottom:14px}
+.fld label{display:block;font-size:.8rem;color:var(--navy2);font-weight:700;margin-bottom:5px}
+.fld .hint{font-weight:400;color:var(--dim);font-size:.74rem}
+.fld input,.fld select{width:100%;padding:11px 13px;border:1px solid var(--line2);border-radius:9px;font-family:inherit;font-size:1rem;color:var(--navy2);font-weight:600}
+.fld input:focus,.fld select:focus{outline:none;border-color:var(--sky);box-shadow:0 0 0 3px var(--sky-soft)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.note{background:var(--sky-soft);border-radius:10px;padding:14px 16px;font-size:.84rem;color:var(--navy2)}
+.rescard{border-radius:18px;padding:26px;margin-bottom:16px;color:#fff;background:var(--navy2)}
+.rescard.pos{background:#1c7c3f}.rescard.neg{background:var(--sky)}
+.rescard .l{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;opacity:.85}
+.rescard .v{font-family:var(--display);font-size:2.6rem;font-weight:800;line-height:1.05;margin:4px 0}
+.rescard .s{font-size:.88rem;opacity:.92}
+.brk{width:100%;border-collapse:collapse;font-size:.92rem}
+.brk td{padding:8px 0;border-bottom:1px solid var(--line)}
+.brk td:last-child{text-align:right;font-weight:700;color:var(--navy2)}
+.brk tr.tot td{border-top:2px solid var(--navy2);border-bottom:0;color:var(--navy2);font-weight:800;padding-top:11px}
+@media(max-width:820px){.calc-grid{grid-template-columns:1fr}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebApplication","name":"Investment Property Cashflow Calculator","applicationCategory":"FinanceApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"AUD"},"url":"https://smartbuyerhub.com.au/investment-cashflow-calculator.html","provider":{"@id":"https://smartbuyerhub.com.au/#org"},"description":"Estimate the weekly after-tax cost of an Australian investment property including rent, interest, expenses, depreciation and negative gearing at your marginal tax rate."},
+{"@type":"FinancialService","additionalType":"https://en.wikipedia.org/wiki/Mortgage_broker","@id":"https://smartbuyerhub.com.au/#org","name":"Smart Buyer Hub","url":"https://smartbuyerhub.com.au/","email":"ryan@smartbuyerhub.com.au","telephone":"+61415353927"},
+{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://smartbuyerhub.com.au/"},{"@type":"ListItem","position":2,"name":"Investment Cashflow Calculator","item":"https://smartbuyerhub.com.au/investment-cashflow-calculator.html"}]}
+]}
+</script>
+</head>
+<body>
+
+<header class="site-head over-hero">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img class="brand-c" src="assets/img/logo-full.png" alt="Smart Buyer Hub"><img class="brand-w" src="assets/img/logo-full-white.png" alt="" aria-hidden="true"></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="owner-occupier-loans.html">Loan Services <span class="caret"></span></a><div class="dropdown"><a href="owner-occupier-loans.html">Owner Occupier Loans</a><a href="investment-loans.html">Investment Loans</a><a href="first-home-buyers.html">First Home Buyers</a><a href="self-employed-loans.html">Self-Employed Loans</a><a href="guarantor-loans.html">Guarantor Loans</a></div></li>
+      <li><a href="mortgage-calculator.html" class="active">Calculators <span class="caret"></span></a><div class="dropdown"><a href="mortgage-calculator.html">Mortgage Calculator</a><a href="borrowing-power-estimator.html">Borrowing Power Estimator</a><a href="upfront-cost-calculator.html">Upfront Cost Calculator</a><a href="deposit-savings-planner.html">Deposit Savings Planner</a><a href="investment-cashflow-calculator.html">Investment Cashflow Calculator</a><a href="usable-equity-calculator.html">Usable Equity Calculator</a><a href="cgt-reform-calculator.html">CGT Reform Calculator</a></div></li>
+      <li><a href="/blog/">Knowledge Hub</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta"><a class="nav-phone" href="tel:+61415353927">0415 353 927</a><a class="btn btn-sky" href="contact.html">Free assessment</a><button class="burger" aria-label="Open menu">&#9776;</button></div>
+  </div>
+</header>
+<nav class="mobile-nav"><button class="close" aria-label="Close menu">&times;</button><a href="index.html">Home</a><a href="about.html">About</a><a href="owner-occupier-loans.html">Loan Services</a><a href="mortgage-calculator.html">Calculators</a><a href="/blog/">Knowledge Hub</a><a href="contact.html">Contact</a><a class="btn btn-sky" href="contact.html">Free assessment</a></nav>
+
+<main>
+<section class="page-hero">
+  <span class="eyebrow" style="color:var(--sky2);justify-content:center">Calculators</span>
+  <h1>What will this investment really cost you?</h1>
+  <p>The number that matters: your weekly out-of-pocket <em>after tax</em>, once rent, interest, expenses, depreciation and negative gearing are factored in.</p>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="calc-grid">
+      <div class="panel">
+        <div class="two">
+          <div class="fld"><label>Purchase price $</label><input type="number" id="price" value="700000"></div>
+          <div class="fld"><label>Deposit $</label><input type="number" id="deposit" value="140000"></div>
+        </div>
+        <div class="two">
+          <div class="fld"><label>Interest rate % p.a.</label><input type="number" id="rate" value="6.3" step="0.01"></div>
+          <div class="fld"><label>Weekly rent $</label><input type="number" id="rent" value="600"></div>
+        </div>
+        <div class="two">
+          <div class="fld"><label>Council rates $/yr</label><input type="number" id="rates" value="1800"></div>
+          <div class="fld"><label>Insurance $/yr</label><input type="number" id="ins" value="1500"></div>
+        </div>
+        <div class="two">
+          <div class="fld"><label>Strata $/yr <span class="hint">0 if none</span></label><input type="number" id="strata" value="3000"></div>
+          <div class="fld"><label>Maintenance $/yr</label><input type="number" id="maint" value="1500"></div>
+        </div>
+        <div class="two">
+          <div class="fld"><label>Property mgmt %</label><input type="number" id="mgmt" value="6.6" step="0.1"></div>
+          <div class="fld"><label>Depreciation $/yr <span class="hint">est.</span></label><input type="number" id="dep" value="6000"></div>
+        </div>
+        <div class="fld"><label>Your marginal tax rate (incl. Medicare)</label><select id="mtr">
+          <option value="0.18">$18,201&ndash;$45,000 (18%)</option>
+          <option value="0.32" selected>$45,001&ndash;$135,000 (32%)</option>
+          <option value="0.39">$135,001&ndash;$190,000 (39%)</option>
+          <option value="0.47">$190,001+ (47%)</option>
+        </select></div>
+        <div class="note"><strong>How it works:</strong> rent minus interest, running costs and depreciation gives your taxable result; any loss is offset against your income at your marginal rate (negative gearing). Depreciation is a non-cash deduction, so it boosts your refund without costing you cash.</div>
+      </div>
+      <div>
+        <div class="rescard" id="card">
+          <div class="l" id="rHeadL">Net weekly cost after tax</div>
+          <div class="v" id="rWeekly">$0</div>
+          <div class="s" id="rHeadS">After negative gearing benefit</div>
+        </div>
+        <table class="brk">
+          <tr><td>Annual rent</td><td id="rRent">$0</td></tr>
+          <tr><td>Loan interest</td><td id="rInt">$0</td></tr>
+          <tr><td>Running costs (rates, insurance, strata, mgmt, maint.)</td><td id="rCosts">$0</td></tr>
+          <tr><td>Pre-tax cashflow</td><td id="rPre">$0</td></tr>
+          <tr><td>Depreciation (non-cash deduction)</td><td id="rDep2">$0</td></tr>
+          <tr><td>Tax refund / (payable)</td><td id="rTax">$0</td></tr>
+          <tr class="tot"><td>After-tax cashflow / year</td><td id="rYear">$0</td></tr>
+          <tr><td>Gross rental yield</td><td id="rYield">0%</td></tr>
+        </table>
+        <a class="btn btn-navy" href="contact.html" style="width:100%;justify-content:center;margin-top:18px">Structure this the smart way — free review</a>
+      </div>
+    </div>
+    <p style="font-size:.78rem;color:var(--dim);margin-top:24px;line-height:1.6"><strong>Disclaimer:</strong> Indicative estimate only, not financial, tax or credit advice. Actual depreciation requires a quantity surveyor's schedule; tax outcomes depend on your full circumstances and current ATO rules; interest is shown as interest-only for simplicity. Confirm with your accountant and contact Smart Buyer Hub before relying on these figures.</p>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="fgrid">
+      <div><img src="assets/img/logo-full-white.png" alt="Smart Buyer Hub" style="height:56px;margin-bottom:16px"><h4>Contact Us</h4><a href="mailto:ryan@smartbuyerhub.com.au">ryan@smartbuyerhub.com.au</a><a href="tel:+61415353927">0415 353 927</a><span style="display:block;margin-top:6px">Serving Greater Sydney &amp; Australia-wide</span></div>
+      <div class="fcol"><h4>Loan Products</h4><a href="first-home-buyers.html">First Home Buyers</a><a href="self-employed-loans.html">Self-Employed Loans</a><a href="owner-occupier-loans.html">Home Loan Refinancing</a><a href="investment-loans.html">Investment Property Loans</a><a href="guarantor-loans.html">Guarantor Loans</a></div>
+      <div class="fcol"><h4>Company</h4><a href="about.html">About Us</a><a href="/blog/">Knowledge Hub</a><a href="contact.html">Contact</a></div>
+      <div class="fcol"><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="complaints.html">Complaints Policy</a><a href="#">Credit Guide</a></div>
+    </div>
+    <div class="fbot"><p>&copy; <span data-year>2026</span> Smart Buyer Hub. All Rights Reserved.</p><p>Disclaimer: The information provided on this website is for general education purposes only and is not intended to constitute specialist or personal advice.</p></div>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id);};
+  var f=function(n){return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString();};
+  function calc(){
+    var price=+$('price').value||0, dep=+$('deposit').value||0, rate=+$('rate').value||0,
+        rentW=+$('rent').value||0, rates=+$('rates').value||0, ins=+$('ins').value||0,
+        strata=+$('strata').value||0, maint=+$('maint').value||0, mgmtP=+$('mgmt').value||0,
+        depr=+$('dep').value||0, mtr=+$('mtr').value||0;
+    var loan=Math.max(price-dep,0);
+    var interest=loan*rate/100;
+    var rent=rentW*52;
+    var mgmt=rent*mgmtP/100;
+    var costs=rates+ins+strata+maint+mgmt;
+    var preTax=rent-interest-costs;
+    var taxable=preTax-depr;
+    var taxBenefit=-taxable*mtr;      // loss(neg taxable) -> positive refund
+    var afterTax=preTax+taxBenefit;
+    var weekly=afterTax/52;
+    var yield=price>0?rent/price*100:0;
+    $('rRent').textContent=f(rent);
+    $('rInt').textContent='-'+f(interest).replace('-','');
+    $('rCosts').textContent='-'+f(costs).replace('-','');
+    $('rPre').textContent=f(preTax);
+    $('rDep2').textContent='-'+f(depr).replace('-','');
+    $('rTax').textContent=(taxBenefit>=0?'+':'')+f(taxBenefit);
+    $('rYear').textContent=f(afterTax);
+    $('rYield').textContent=yield.toFixed(2)+'%';
+    var card=$('card');
+    if(weekly<0){
+      card.className='rescard neg';
+      $('rHeadL').textContent='Net weekly cost after tax';
+      $('rWeekly').textContent=f(Math.abs(weekly))+' /wk';
+      $('rHeadS').textContent='Out of pocket after the negative-gearing benefit';
+    } else {
+      card.className='rescard pos';
+      $('rHeadL').textContent='Net weekly income after tax';
+      $('rWeekly').textContent='+'+f(weekly)+' /wk';
+      $('rHeadS').textContent='This property is cashflow positive';
+    }
+  }
+  ['price','deposit','rate','rent','rates','ins','strata','maint','mgmt','dep','mtr'].forEach(function(id){var el=$(id);el.addEventListener('input',calc);el.addEventListener('change',calc);});
+  calc();
+})();
+</script>
+</body>
+</html>

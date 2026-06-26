@@ -20,6 +20,10 @@
 ## Tools
 - Mortgage Calculator (offset, extra repayments, full schedule): https://smartbuyerhub.com.au/mortgage-calculator.html
 - Borrowing Power Estimator: https://smartbuyerhub.com.au/borrowing-power-estimator.html
+- Upfront Cost Calculator (NSW stamp duty, first-home concessions, LMI, fees — true cash to buy): https://smartbuyerhub.com.au/upfront-cost-calculator.html
+- Deposit Savings Planner (deposit + costs needed, time to save, 5% First Home Guarantee path): https://smartbuyerhub.com.au/deposit-savings-planner.html
+- Investment Cashflow Calculator (weekly after-tax cost, negative gearing, depreciation): https://smartbuyerhub.com.au/investment-cashflow-calculator.html
+- Usable Equity Calculator (accessible equity to 80% LVR, indicative next-purchase buying power): https://smartbuyerhub.com.au/usable-equity-calculator.html
 - CGT Reform Calculator (2026-27 Budget proposals): https://smartbuyerhub.com.au/cgt-reform-calculator.html
 
 ## Common questions
