@@ -28,4 +28,17 @@
   } else { cs.forEach(count); }
 
   var yr=document.querySelector('[data-year]'); if(yr) yr.textContent=new Date().getFullYear();
+
+  // Sticky mobile call/enquire bar (mobile only; not on contact/thank-you/404)
+  if(!/(contact|thank-you|404)\.html$/.test(location.pathname)){
+    var bar=document.createElement('div');
+    bar.className='callbar';
+    bar.innerHTML='<a class="cb-call" href="tel:+61415353927" aria-label="Call Smart Buyer Hub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h4l2 5-3 2a14 14 0 0 0 6 6l2-3 5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>Call now</a><a class="cb-cta" href="/contact.html">Free assessment</a>';
+    document.body.appendChild(bar);
+    document.body.classList.add('has-callbar');
+    if(burger&&mnav){
+      burger.addEventListener('click',function(){bar.classList.add('cb-hidden');});
+      mnav.querySelectorAll('a,.close').forEach(function(el){el.addEventListener('click',function(){bar.classList.remove('cb-hidden');});});
+    }
+  }
 })();
