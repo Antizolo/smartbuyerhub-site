@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smart Buyer Hub Knowledge Hub</title>
+    <link>https://smartbuyerhub.com.au/blog/</link>
+    <description>Australian property, mortgage and finance insights from Smart Buyer Hub, Sydney mortgage broker.</description>
+    <language>en-au</language>
+    <atom:link href="https://smartbuyerhub.com.au/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item><title>The 0.8% Club: Why Only 38 Suburbs in Australia Pay Their Own Way</title><link>https://smartbuyerhub.com.au/blog/the-0-8-percent-club.html</link><guid>https://smartbuyerhub.com.au/blog/the-0-8-percent-club.html</guid><pubDate>Thu, 16 Jul 2026 09:00:00 +1000</pubDate><description>Cotality data shows just 0.8% of Australian suburbs are cash flow positive for investors in 2026. Where they are, why the maths broke, and what changes from July 2027.</description></item>
+    <item><title>The Regret List: What First Home Buyers Wish They'd Known Before Signing</title><link>https://smartbuyerhub.com.au/blog/first-home-buyer-regrets.html</link><guid>https://smartbuyerhub.com.au/blog/first-home-buyer-regrets.html</guid><pubDate>Tue, 14 Jul 2026 09:00:00 +1000</pubDate><description>First home buyers' real regrets are rarely about the price paid - they're about the costs nobody budgeted for and the fears that turned out overblown.</description></item>
+    <item><title>The Postcode Lottery: Why First Home Buyers Pay $0 Stamp Duty in Canberra and a Real Bill Everywhere Else</title><link>https://smartbuyerhub.com.au/blog/stamp-duty-postcode-lottery.html</link><guid>https://smartbuyerhub.com.au/blog/stamp-duty-postcode-lottery.html</guid><pubDate>Sat, 11 Jul 2026 09:00:00 +1000</pubDate><description>Two stamp duty deadlines landed one day apart in opposite directions. A state-by-state guide to what first home buyers actually pay in 2026.</description></item>
+    <item><title>Brisbane Just Had Its Worst Auction Weekend Since the 2020 Lockdowns</title><link>https://smartbuyerhub.com.au/blog/brisbane-auction-reality-check.html</link><guid>https://smartbuyerhub.com.au/blog/brisbane-auction-reality-check.html</guid><pubDate>Thu, 09 Jul 2026 09:00:00 +1000</pubDate><description>Brisbane's auction clearance rate just fell to its lowest level since April 2020 - months before the monthly price indices will show it.</description></item>
+  </channel>
+</rss>
