@@ -5,6 +5,43 @@
   window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
 
   var burger=document.querySelector('.burger'), mnav=document.querySelector('.mobile-nav');
+
+  // Mobile menu: expose every service + calculator (desktop has dropdowns, mobile had none).
+  // Root-relative hrefs so these also work from /blog/ pages.
+  if(mnav){
+    var subs={
+      'Loan Services':[
+        ['Owner Occupier Loans','/owner-occupier-loans.html'],
+        ['Investment Loans','/investment-loans.html'],
+        ['First Home Buyers','/first-home-buyers.html'],
+        ['Self-Employed Loans','/self-employed-loans.html'],
+        ['Guarantor Loans','/guarantor-loans.html']
+      ],
+      'Calculators':[
+        ['Mortgage Calculator','/mortgage-calculator.html'],
+        ['Borrowing Power Estimator','/borrowing-power-estimator.html'],
+        ['Upfront Cost Calculator','/upfront-cost-calculator.html'],
+        ['Deposit Savings Planner','/deposit-savings-planner.html'],
+        ['Investment Cashflow Calculator','/investment-cashflow-calculator.html'],
+        ['Usable Equity Calculator','/usable-equity-calculator.html'],
+        ['CGT Reform Calculator','/cgt-reform-calculator.html']
+      ]
+    };
+    Array.prototype.forEach.call(mnav.querySelectorAll('a'),function(a){
+      var items=subs[(a.textContent||'').trim()];
+      if(!items) return;
+      var box=document.createElement('div');
+      box.className='subnav';
+      items.forEach(function(it){
+        var s=document.createElement('a');
+        s.href=it[1];
+        s.textContent=it[0];
+        box.appendChild(s);
+      });
+      a.insertAdjacentElement('afterend',box);
+    });
+  }
+
   if(burger&&mnav){
     burger.addEventListener('click',function(){mnav.classList.add('open');document.body.style.overflow='hidden';});
     mnav.querySelectorAll('a,.close').forEach(function(el){el.addEventListener('click',function(){mnav.classList.remove('open');document.body.style.overflow='';});});
